@@ -1,7 +1,29 @@
 aid: applica
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/applica.png
 name: Applica
-description: Applica is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Applica was an AI-based document understanding and text automation company
+  founded in Warsaw, Poland, built on deep-learning research in natural language
+  processing for unstructured documents. Its platform read, interpreted, and
+  extracted information from documents such as invoices, contracts, insurance
+  claims, legal documents, and financial filings across the finance, insurance,
+  legal, and media industries. Applica went through the Barclays Accelerator
+  powered by Techstars and raised a Series A led by Cogito Capital Partners in
+  2020. Snowflake announced its intent to acquire Applica in August 2022 and
+  absorbed the technology into the Snowflake platform. Applica no longer operates
+  as an independent product or API provider, and applica.ai is no longer a live
+  developer surface; this profile is retained for historical/network provenance.
 url: https://raw.githubusercontent.com/api-evangelist/applica/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +31,21 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: snowflake
+x-acquired-date: '2022-08-23'
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Artificial Intelligence
+- Natural Language Processing
+- Document Understanding
+- Text Automation
+- Machine Learning
+- Document Processing
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +55,10 @@ maintainers:
 common:
 - type: Website
   url: https://applica.ai/
+- type: GitHubOrganization
+  url: https://github.com/applicaai
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

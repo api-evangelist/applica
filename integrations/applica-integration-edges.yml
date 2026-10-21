@@ -1,0 +1,24 @@
+generated: '2026-10-20'
+method: searched
+checked:
+- blue-prism/integrations/blue-prism-integration-edges.yml
+source:
+- blue-prism/integrations/blue-prism-integration-edges.yml
+edges:
+- partner_name: Blue Prism (blue-prism-digital-exchange)
+  partner: blue-prism
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: blue-prism-digital-exchange
+  evidence: https://digitalexchange.blueprism.com/dx/entry/59175
+  mirror_of: blue-prism/integrations/blue-prism-integration-edges.yml
+  apps:
+  - Applica RTA
+  listing_count: 1
+  detected: '2026-10-20'
+  detected_by: mirror-platform-listings.py
+  category: RPA marketplace listing
